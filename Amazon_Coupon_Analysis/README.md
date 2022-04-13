@@ -9,4 +9,4 @@ Following observations have been seen.
 
 Link to the the workbook.
 
-[https://github.com/arvindcv/ML_AI/blob/main/prompt.ipynb]
+[https://github.com/arvindcv/ML_AI/blob/main/Amazon_Coupon_Analysis/amazon_coupon_analysis.ipynb]
