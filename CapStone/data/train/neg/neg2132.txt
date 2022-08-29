@@ -1,0 +1,1 @@
+Robert Ballew's log statements are always at the FATAL level.

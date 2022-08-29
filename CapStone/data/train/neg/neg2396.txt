@@ -1,0 +1,1 @@
+Hail:The user summons a hailstorm lasting five turns. It damages all Pokemon except the Ice type.

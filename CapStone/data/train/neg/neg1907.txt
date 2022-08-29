@@ -1,0 +1,1 @@
+the new quest type is 'level up quest'. its an always present quest with x2 exp designed to help people level up outside of emergency quests
