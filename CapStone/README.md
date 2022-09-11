@@ -59,13 +59,13 @@ Metrics of Lemmetizer model
 # Prediction  Output
 
 ### Lemmetizer prediction --
-![Lemmetizer Prediction]("https://github.com/arvindcv/ML_AI/blob/main/CapStone/Lemmetizer_Output.png")
+![Lemmetizer Prediction](https://github.com/arvindcv/ML_AI/blob/main/CapStone/Lemmetizer_Output.png)
 
 ### Stemmer prediction --
-![Stemmer Prediction]("https://github.com/arvindcv/ML_AI/blob/main/CapStone/Stemmer_Output.png")
+![Stemmer Prediction](https://github.com/arvindcv/ML_AI/blob/main/CapStone/Stemmer_Output.png)
 
 ### Bert prediction --
-![Bert Prediction]("https://github.com/arvindcv/ML_AI/blob/main/CapStone/Bert_Output.png")
+![Bert Prediction](https://github.com/arvindcv/ML_AI/blob/main/CapStone/Bert_Output.png)
 
 ### Spacy prediction --
-![Spacy Prediction]("https://github.com/arvindcv/ML_AI/blob/main/CapStone/Spacy_Output.png")
+![Spacy Prediction](https://github.com/arvindcv/ML_AI/blob/main/CapStone/Spacy_Output.png)
