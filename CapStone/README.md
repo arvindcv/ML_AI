@@ -59,5 +59,15 @@ Metrics of Lemmetizer model
 # Prediction  Output
 
 ### Lemmetizer prediction --
+![Lemmetizer Prediction](/Users/achandrasekhar/Desktop/Lemmetizer_Output.png)
+
+### Stemmer prediction --
+![Stemmer Prediction](/Users/achandrasekhar/Desktop/Stemmer_Output.png)
+
+### Bert prediction --
+![Bert Prediction](/Users/achandrasekhar/Desktop/Bert_Output.png)
+
+### Spacy prediction --
+![Spacy Prediction](/Users/achandrasekhar/Desktop/Spacy_Output.png)
 
 
