@@ -16,6 +16,8 @@
 #### 1. Model which uses Count Vectorizer and Stemmer along with Logistic Regression.
 #### 2. Model which uses Count Vectorizer and Lemmetizer along with Logistic Regression.
 #### 3. Model using Google Bert to predict the sentiment of tweets.
+#### 4. Spacy model is used to build prediction model for tweets.
+#### 5. Live tweets for a duration of last 15 mins capped to max of 15 tweets are fetched and supplied to the model for prediction. The output is recorded 	   in a dataframe.
 
 # Project Set up 
 ### Source Files
