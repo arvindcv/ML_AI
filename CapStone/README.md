@@ -27,6 +27,7 @@
 |[TweetAnalysisUsingBert.ipynb](https://github.com/arvindcv/ML_AI/blob/main/CapStone/TweetAnalysisUsingBert.ipynb "TweetAnalysisUsingBert.ipynb")|File|1. File which has necessary logic to build model using Google Bert|
 |[TweetAnalysisStemmer.ipynb](https://github.com/arvindcv/ML_AI/blob/main/CapStone/TweetAnalysisStemmer.ipynb "TweetAnalysisStemmer.ipynb")|File|1. File which has necessary logic to build model using Count Vectorizer, Stemmer and Logistic Regression|
 |[TweetAnalysisLemmetizer.ipynb](https://github.com/arvindcv/ML_AI/blob/main/CapStone/TweetAnalysisLemmetizer.ipynb "TweetAnalysisLemmetizer.ipynb")|File|1. File which has necessary logic to build model using Count Vectorizer, Lemmetizer and Logistic Regression|
+|[TweetAnalysisSpacy.ipynb](https://github.com/arvindcv/ML_AI/blob/main/CapStone/TweetAnalysisSpacy.ipynb "TweetAnalysisSpacy.ipynb")|File|1. File which has necessary logic to build model using Spacy|
 |[data](https://github.com/arvindcv/ML_AI/tree/main/CapStone/data "data")|Directory|1. Data folder which contains the input data for building the Logistic Regression Model and input data for building model with Google Bert|
 |[train.csv](https://github.com/arvindcv/ML_AI/blob/main/CapStone/data/train.csv "train.csv")|File|Tweet data of 10,000 tweets that has been used to build the model with Logistic Regression|
 |[train](https://github.com/arvindcv/ML_AI/tree/main/CapStone/data/train "train")|Directory|Directory which contains input data to train the Google Bert model. The folder structure that Google Bert follows is to have multiple files for each of the class being predicted|
@@ -54,3 +55,9 @@ Metrics of Lemmetizer model
 |Count Vectorizer and Logistic Regression Lemmetizer[Raw data]|0.799037|0.985237|0.799037|0.785093|
 |Count Vectorizer and Logistic Regression Lemmetizer [Balanced Data]|0.974868|1.744217|0.974868|0.974868|
 |Count Vectorizer and Logistic Regression Lemmetizer [CV]|0.996197|69.286025|0.996197|0.996197|
+
+# Prediction  Output
+
+### Lemmetizer prediction --
+
+
