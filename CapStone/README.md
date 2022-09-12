@@ -1,13 +1,13 @@
 > Written with [StackEdit](https://stackedit.io/).
 
 # Objective
-#### The objective of this Capstone project is to perform sentiment analysis of tweets. 
-#### The effort is towards building a model which should be able to predict if a incoming tweet can be classified as a tweet which has sentiment towards indicating occurrence of disaster. e.g. I live on the pacific coast. a level 5 hurricane is heading towards our town.
+#### The objective of this project is to perform sentiment analysis of tweets. 
+#### The effort is towards building a model which should be able to predict if a incoming tweet can be classified as a tweet which has sentiment towards indicating occurrence of disaster. e.g. "I live on the pacific coast. a level 5 hurricane is heading towards our town", should be predicted as a 1 indicating it is a related to a disaster message, while a tweet "firestone movie is a whirlwind comedy", should be predicted as a 0, indicating it is a normal tweet without any indications of disaster event in it.
 
-## There are multiple uses of this project 
+## Following are the uses of the project
 #### There are multiple uses of this effort 
 #### 1. It can be used to proactively get hints of disasters before they can happen.
-#### 2. It can be used by news agencies to know where possibly they need coverage.
+#### 2. It can be used by news agencies to know where possibly they should be covering.
 #### 3. The model can be used for other sentiment analysis like customer support to know if there customer is happy or unhappy with their experience.
 #### 4. The model can also be used for searching web to gather posts on a particular topic and weigh the sentiment across posts e.g. restaurants reviews, product reviews, company service reviews etc.
 
@@ -17,7 +17,7 @@
 #### 2. Model which uses Count Vectorizer and Lemmetizer along with Logistic Regression.
 #### 3. Model using Google Bert to predict the sentiment of tweets.
 #### 4. Spacy model is used to build prediction model for tweets.
-#### 5. Live tweets for a duration of last 15 mins capped to max of 15 tweets are fetched and supplied to the model for prediction. The output is recorded 	   in a dataframe.
+#### 5. Live tweets for a duration of last 15 mins capped to max of 15 tweets are fetched and supplied to the model for prediction.
 
 # Project Set up 
 ### Source Files
@@ -42,14 +42,16 @@
 #### 3. Accuracy of the model on raw tweet data has been observed to be 0.79
 #### 4. Class imbalance has been observed with negatives being more in the available sample hence SMOTE has been used to over sample the data to balance the class.
 #### 5. Accuracy of the model on balanced class shot up to 0.9748 after balancing the class.
-#### 6. Accuracy of the model after applying gridsearchCV has been best at 0.9961
+#### 6. Accuracy of the model after applying GridSearchCV has been the best at 0.9961
 #### 7. Google Bert has been trained and an accuracy of 0.9998 has been observed with it.
 #### 8. Hyper parameters used for tuning - 
 		max_iter=[1,10,1000]
 		solvers = ['newton-cg', 'lbfgs', 'liblinear']
 		penalty = ['l2']
 		c_values = [100, 10, 1.0, 0.1, 0.01]
+#### 9. Spacy has been used with TFIDF and CountVectorizer has been trained for a training accuracy of 0.9975 and a testing accuracy of 0.78
 #### 9. GridSearchCV has been the most accurate model and the slowest one w.r.t fitting time.
+
 
 Metrics of Lemmetizer model
 | model | best_score |best_time|accuracy_score|roc_auc_score|
@@ -61,13 +63,17 @@ Metrics of Lemmetizer model
 # Prediction  Output
 
 ### Lemmetizer prediction --
+#### The Lemmetizer model has been able to predict the incoming tweets to identify the ones that have indications of disaster events in it.
 ![Lemmetizer Prediction](https://github.com/arvindcv/ML_AI/blob/main/CapStone/predictions/Lemmetizer_Output.png)
 
 ### Stemmer prediction --
+#### The Stemmer model has been able to predict the incoming tweets to identify the ones that have indications of disaster events in it.
 ![Stemmer Prediction](https://github.com/arvindcv/ML_AI/blob/main/CapStone/predictions/Stemmer_Output.png)
 
 ### Bert prediction --
+#### The Bert model has not been successful in differentiating a message containing disaster event and one that does not contain disaster event.It ends up classifying all of the incoming tweets as tweets containg disaster events.
 ![Bert Prediction](https://github.com/arvindcv/ML_AI/blob/main/CapStone/predictions/Bert_Output.png)
 
 ### Spacy prediction --
+#### The Spacy model has been able to differentiate tweets containing indications of disaster events and ones which do not contain disaster events.
 ![Spacy Prediction](https://github.com/arvindcv/ML_AI/blob/main/CapStone/predictions/Spacy_Output.png)
